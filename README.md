@@ -38,7 +38,7 @@ The result is stored using the class LPresult with contains a bool indicating wh
         cout<<"Vector x which minimizes objective function is:\n";
         cout<<result.x;
         cout<<"Optimum value for objective function is: "<<result.opt_val<<"\n";
-    }
+  }
   else{
       cout<<"Operation did not terminate.\n";
   }
