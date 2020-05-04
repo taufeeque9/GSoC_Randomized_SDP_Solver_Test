@@ -25,7 +25,7 @@ LPproblem problem = LPproblem(A, b, c);
 To get the minimum optimum result for the problem:<br/>
 
 ```c++
-LPresult result = prob.minimize();
+LPresult result = problem.minimize();
 ```
 
 If instead you want to maximize the objective function, c can be replaced with -c
@@ -37,10 +37,10 @@ The result is stored using the class LPresult with contains a bool indicating wh
         cout<<"Vector x which minimizes objective function is:\n";
         cout<<result.x;
         cout<<"Optimum value for objective function is: "<<result.opt_val<<"\n";
-    }
-    else{
-        cout<<"Operation did not terminate.\n";
-    }
+  }
+  else{
+      cout<<"Operation did not terminate.\n";
+  }
   ```
 
   Look at main.cpp for an example problem.
