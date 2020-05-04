@@ -28,9 +28,9 @@ int main() {
     LPresult result = problem.minimize();
     if(result.success){
         cout<<"Operation terminated successfully!\n";
-        cout<<"Vector x which minimizes objective function is:\n";
+        cout<<"Vector x which minimizes the objective function is:\n";
         cout<<result.x;
-        cout<<"Optimum value for objective function is: "<<result.opt_val<<"\n";
+        cout<<"Optimum value for the objective function is: "<<result.opt_val<<"\n";
     }
     else{
         cout<<"Operation did not terminate.\n";
