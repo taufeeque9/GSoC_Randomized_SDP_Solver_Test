@@ -13,7 +13,7 @@ Make sure you have the these libraries before building the package:
 
 ## Usage
 The linear programming problem can be defined in the standard form as:<br/>
-<a href="https://www.codecogs.com/eqnedit.php?latex=minimize~&space;c^{T}x~\\&space;~~~~~s.t.&space;~~~~Ax&space;=&space;b,&space;~~x&space;\geqslant&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?minimize~&space;c^{T}x~\\&space;~~~~~s.t.&space;~~~~Ax&space;=&space;b,&space;~~x&space;\geqslant&space;0" title="minimize~ c^{T}x~\\ ~~~~~s.t. ~~~~Ax = b, ~~x \geqslant 0" /></a>
+<img src="lp.gif"/>
 
  This standard form can be encoded in our code as:
 
