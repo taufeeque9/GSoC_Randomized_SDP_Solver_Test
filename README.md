@@ -13,7 +13,7 @@ Make sure you have the these libraries before building the package:
 
 ## Usage
 The linear programming problem can be defined in the standard form as:<br/>
-<img src="lp.gif"/>
+<img src="lp.gif" width="210px"/>
 
  This standard form can be encoded in our code as:
 
